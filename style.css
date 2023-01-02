@@ -1,0 +1,54 @@
+.big-box {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.titlebox {
+    margin: auto;
+    margin-top: 50px;
+    font-size: 32px;
+    padding: 50px;
+    border: 2px black solid;
+}
+
+.buttons {
+    margin: auto;
+    padding: 20px;
+}
+
+#resultbox {
+    margin: auto;
+    padding: 20px;
+    line-height: 25px;
+    font-size: 30px;
+}
+
+button {
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: gray;
+    color: white;
+}
+
+.scorenames {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 25px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.scorenumbers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 30px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
