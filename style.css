@@ -1,3 +1,7 @@
+body {
+    width: 100%;
+}
+
 .big-box {
     display: flex;
     flex-direction: column;
@@ -5,8 +9,7 @@
 }
 
 .titlebox {
-    margin: auto;
-    margin-top: 50px;
+    margin: 50px auto auto;
     font-size: 32px;
     padding: 50px;
     border: 2px black solid;
